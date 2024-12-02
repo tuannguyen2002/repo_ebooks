@@ -1,4 +1,5 @@
 const jsonServer = require("json-server");
+const cors = require('cors');
 const path = require("path");
 
 const server = jsonServer.create();
@@ -42,7 +43,9 @@ server.use((req, res, next) => {
   }
 });
 
-
+server.use(cors({
+  origin: '*'
+}));
 server.use(middlewares);
 server.use(router);
 

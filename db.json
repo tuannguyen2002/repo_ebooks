@@ -49,8 +49,8 @@
       "price": 0,
       "price_before_sale": 0,
       "is_editor_choice": true,
-      "view_count": 763816,
-      "download_count": 174771,
+      "view_count": 763817,
+      "download_count": 174772,
       "created_time": "2024-11-21T20:19:45.078+07:00",
       "updated_time": null
     },
@@ -4674,7 +4674,7 @@
       "price": 0,
       "price_before_sale": 0,
       "is_editor_choice": false,
-      "view_count": 0,
+      "view_count": 1,
       "download_count": 8169,
       "created_time": "2024-11-21T20:19:45.078+07:00",
       "updated_time": null
@@ -11911,7 +11911,7 @@
       "price": 0,
       "price_before_sale": 0,
       "is_editor_choice": false,
-      "view_count": 0,
+      "view_count": 2,
       "download_count": 3657,
       "created_time": "2024-11-21T20:19:45.078+07:00",
       "updated_time": null
@@ -17351,7 +17351,7 @@
       "price": 0,
       "price_before_sale": 0.98,
       "is_editor_choice": false,
-      "view_count": 0,
+      "view_count": 1,
       "download_count": 2499,
       "created_time": "2024-11-21T20:19:45.078+07:00",
       "updated_time": null
