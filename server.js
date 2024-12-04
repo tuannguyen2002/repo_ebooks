@@ -47,7 +47,7 @@ server.use((req, res, next) => {
 
 server.use(
   cors({
-    origin: "*",
+    origin: "https://ebooks-online-opal.vercel.app/",
   })
 );
 server.use(middlewares);
