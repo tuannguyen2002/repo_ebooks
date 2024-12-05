@@ -12,6 +12,12 @@ const normalizeString = (str) =>
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 
+server.use(
+  cors({
+    origin: "https://ebooks-online-opal.vercel.app/",
+  })
+);
+
 server.use((req, res, next) => {
   if (req.method === "GET" && req.query.keyword) {
     const keyword = normalizeString(req.query.keyword);
@@ -45,11 +51,6 @@ server.use((req, res, next) => {
   }
 });
 
-server.use(
-  cors({
-    origin: "https://ebooks-online-opal.vercel.app/",
-  })
-);
 server.use(middlewares);
 server.use(router);
 
