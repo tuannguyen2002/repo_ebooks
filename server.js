@@ -14,7 +14,7 @@ const normalizeString = (str) =>
 
 server.use(
   cors({
-    origin: "https://ebooks-online-opal.vercel.app/",
+    origin: "*",
   })
 );
 
